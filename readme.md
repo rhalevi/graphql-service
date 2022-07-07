@@ -1,2 +1,2 @@
-run mpn run dev
-open http://localhost:500/graphql
+## run mpn run dev
+## open http://localhost:5000/graphql
