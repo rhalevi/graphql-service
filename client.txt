@@ -1,0 +1,29 @@
+# query {
+#   # books {
+#   #   id ,name ,authorId,author{ name}
+#   # }
+  
+#   # authors{
+#   #   name , id, books{ name}
+#   # }
+  
+#   # book(id:1){
+#   #   name
+#   # }
+  
+#   #   author(id:3){
+#   #   name, books{ name}
+#   # }
+  
+# }
+
+mutation{
+  # addBook(id:10,name:"additional book",authorId:1) {
+  #   id,name
+  # }
+  
+  deleteBook(id:2){
+    id,name
+  }
+  
+}
